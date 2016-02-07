@@ -6,7 +6,7 @@
 //= require chartjs
 //= require i18n/translations
 //= require api/init
-//= require catarse.js/dist/catarse.js
+//= require catarse.js-fr/dist/catarse.js
 //= require_self
 
 (function(m, c, Chart){
@@ -15,8 +15,8 @@
   Chart.defaults.Line.pointHitDetectionRadius = 0;
   Chart.defaults.global.scaleFontFamily = "proxima-nova";
 
-  I18n.defaultLocale = "pt";
-  I18n.locale = "pt";
+  I18n.defaultLocale = "fr";
+  I18n.locale = "fr";
 
   var adminRoot = document.getElementById('new-admin');
 
