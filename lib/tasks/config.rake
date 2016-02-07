@@ -29,7 +29,7 @@ namespace :config do
     puts ' Showing all entries in Configuration Table...'
     puts '---------------------------------------------'
 
-    Configuration.all.each do |conf|
+    CatarseSettings.all.each do |conf|
       a = conf.attributes
       puts "  #{a['name']}: #{a['value']}"
     end
@@ -46,7 +46,7 @@ namespace :config do
   task :put, [:name, :value] => :environment do |t, args|
     puts
     puts "Adding #{args[:name]}=#{args[:value]} to configuration table..."
-    conf = Configuration.find_or_initialize_by_name args[:name]
+    conf = CatarseSettings.find_or_initialize_by_name args[:name]
     conf.update_attributes(
       value: args[:value],
     )
