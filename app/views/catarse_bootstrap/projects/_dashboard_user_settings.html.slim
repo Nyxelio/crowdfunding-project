@@ -29,8 +29,8 @@
                     input_html: { class: 'positive' }
                 .w-row
                   .w-col.w-col-6.w-sub-col
-                    = form.input :owner_document, as: :tel, 
-                      input_html: { class: 'positive user-document', data: { :'validate-cpf-cnpj' => true, natural: t('.owner_document_natural'), juridical: t('.owner_document_juridical')}}
+                    /= form.input :owner_document, as: :tel,
+                      input_html: { class: 'positive user-document', data: { :'validate-cpf-cnpj' => false, natural: t('.owner_document_natural'), juridical: t('.owner_document_juridical')}}
                   .w-col.w-col-6
                     = form.input :state_inscription, as: :string, 
                     input_html: { class: 'positive' }

@@ -73,6 +73,13 @@ class Project < ActiveRecord::Base
     search_tsearch(term).presence || search_trm(term)
   end
 
+  before_validation do
+    s = State.find_or_create_by(name: 'France', acronym: 'FR')
+    self.city= City.find_or_create_by(name: 'Bordeaux', state: s)
+    # p self.city
+    self.uploaded_image = File.open(Rails.root.join('public','uploads','project','uploaded_image','1','Pluchovor-300x168.png')) unless uploaded_image.present?
+  end
+
   # With state scopes
   scope :maybe_flex, -> {
     joins("LEFT JOIN flexible_projects fp on fp.project_id = projects.id")

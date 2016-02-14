@@ -169,6 +169,7 @@ GEM
       faraday_middleware (~> 0.9)
       loofah (~> 2.0)
       sax-machine (~> 1.0)
+    ffaker (2.2.0)
     ffi (1.9.10)
     fog-aws (0.7.6)
       fog-core (~> 1.27)
@@ -537,6 +538,7 @@ DEPENDENCIES
   factory_girl_rails
   fakeweb
   feedjira
+  ffaker
   fog-aws
   foreman
   gridhook

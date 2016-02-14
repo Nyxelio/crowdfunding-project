@@ -37,7 +37,7 @@
               = bform.input_field :owner_name, as: :string, class: 'positive'
             .w-col.w-col-6
               = bform.label :owner_document, class: 'field-label fontweight-semibold force-text-dark'
-              = bform.input_field :owner_document, as: :tel, validation_text: true, class: 'positive', data: { :'validate-cpf-cnpj' => true }
+              = bform.input_field :owner_document, as: :tel, validation_text: true, class: 'positive', data: { :'validate-cpf-cnpj' => false }
           .w-row
             = render 'shared/bank_select', bform: bform
             .w-col.w-col-6

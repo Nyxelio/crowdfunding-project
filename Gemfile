@@ -47,6 +47,8 @@ gem 'slim-rails'
 gem 'browser'
 gem "cocoon"
 
+gem 'ffaker'
+
 # Static pages
 gem 'high_voltage'
 

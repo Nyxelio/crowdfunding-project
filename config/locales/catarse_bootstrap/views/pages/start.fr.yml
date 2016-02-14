@@ -1,7 +1,7 @@
 fr:
   pages:
     start:
-      page-title: " Catarse? Comment ça marche"
+      page-title: " GoldAngels? Comment ça marche"
       title: " Financer votre projet collectivement "
       submit: " Commencez votre projet "
       learn-more: "En savoir plus"
@@ -11,31 +11,31 @@ fr:
         money: "La liste des dons pour les projets ici"
       description: 'O Catarse é a primeira e maior plataforma de crowdfunding, ou financiamento coletivo, do Brasil. Venha tirar projetos do papel!'
       tagline: 'Crowdfunding e financiamento coletivo no Brasil é no Catarse'
-      page-subtitle: 'Conheça os pilares básicos de uma campanha de financiamento coletivo'
-      slogan: 'Tire o seu projeto do papel'
+      page-subtitle: "Connaître les fondamentaux d'une campagne de crowdfunding"
+      slogan: 'A vos projets !'
       banner:
-        1: 'Apoiadores'
-        2: 'Seus amigos, familiares e interessados no projeto.'
-        3: 'Recompensas'
-        4: 'É o que você oferece em troca dos apoios.'
-        5: 'Meta'
-        6: 'O quanto você quer arrecadar no Catarse.'
-        7: 'Tempo'
-        8: 'É o período que sua campanha estará aberta a receber apoios.'
+        1: 'Investisseurs'
+        2: 'Amis, familles et professionnels intéressés par le projet.'
+        3: 'Récompenses'
+        4: 'La récompense reçue en échange du soutien'
+        5: 'Objectifs'
+        6: 'La somme que vous voulez atteindre.'
+        7: 'Campagne'
+        8: "La durée de la campagne pour atteindre l'objectif"
       features:
-        title: 'A plataforma ideal para sua campanha'
-        subtitle: 'Conheça as soluções que desenvolvemos para você financiar sua ideia!'
-        feature_1: 'Atendimento rápido e ágil'
-        feature_2: 'Painel de controle completo'
-        feature_3: 'Tenha um blog de campanha'
-        feature_4: 'É muito fácil apoiar um projeto'
-        feature_5: 'Receba seu dinheiro mais rápido'
+        title: 'La plateforme idéale pour votre campagne'
+        subtitle: 'Découvrez les solutions que nous développons pour financer vos idées !'
+        feature_1: 'Rapidité et agilité'
+        feature_2: 'Interface de contrôle complète'
+        feature_3: 'Un blog de campagne à disposition'
+        feature_4: 'Très facile de soutenir votre projet'
+        feature_5: 'Obtenez votre argent plus rapidement'
       video:
-        title: 'Uma campanha de financiamento coletivo é emoção garantida. '
-        subtitle: 'Sente o gostinho...'
+        title: 'Une campagne de crowdfunding à succès'
+        subtitle: 'Voyez plutôt...'
         src: 'z7FBAjkcLG8'
       categories:
-        title: 'O Catarse tem espaço para vários tipos de projetos! Conheça nossas categorias!'
+        title: 'Retrouvez nos catégories disponibles sur GoldAngels !'
         pledged: 'Arrecadou R$ {{pledged}} com {{contributors}} apoios para o projeto '
         loading_featured: 'carregando projeto destaque...'
         no_featured: 'Nenhum projeto em destaque.'
@@ -162,27 +162,27 @@ fr:
             secondary: 8389
       panes:
         1:
-          label: 'Atendimento rápido e ágil'
+          label: 'Rapidité et agilité'
           src: '/assets/start-atendimento-ui.gif'
         2:
-          label: 'Painel de controle completo'
+          label: 'Interface de contrôle complète'
           src: '/assets/start-painel-ui.gif'
         3:
-          label: 'Blog da campanha'
+          label: 'Un blog de campagne à disposition'
           src: '/assets/start-blog-ui.gif'
         4:
-          label: 'Apoio parcelado'
+          label: 'Très facile de soutenir votre projet'
           src: '/assets/start-apoio.gif'
         5:
-          label: 'Repasse facilitado'
+          label: 'Obtenez votre argent plus rapidement'
           src: '/assets/start-repasse.gif'
-      testimonials_title: 'O que estão dizendo por aí...'
+      testimonials_title: 'Ce que les gens en disent...'
       testimonials:
         1:
           thumb: '/assets/start/thumb-marcela.jpg'
-          content: 'Estou sequenciando o genoma do mexilhão dourado. Financiei coletivamente minha pesquisa de doutorado. Esse modelo poderia mudar o mundo.'
+          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.'
           name: 'Marcela Uliano'
-          totals: 'Arrecadou R$40.736 com a ajuda de 344 pessoas para viabilizar o projeto Genoma do Mexilhão Dourado.'
+          totals: 'A levé 40000€ avec la participation de 344 personnes'
         2:
           thumb: '/assets/start/thumb-tiago.jpg'
           content: 'Tá afim de fazer? Mete a cara. Sim, a lei de incentivo só beneficia quem tem nome. E aí, você vai ficar parado? Pare de reclamar e vá buscar uma alternativa.'
@@ -203,35 +203,24 @@ fr:
           content: 'Sei que têm mais 200 pessoas ali comigo, enviando energia positiva, torcendo, fazendo parte disso tudo e caminhando até as Olimpíadas comigo.'
           name: 'Larissa Juk'
           totals: 'Arrecadou R$28.532 ao receber 218 apoios para o projeto Larissa Juk rumo a Olimpíada Rio 2016'
-      qa_title: 'Ainda com dúvidas?'
+      qa_title: 'Vous avez des questions ?'
       qa:
         col_1:
           1:
-            question: 'Por que fazer uma campanha no Catarse?'
+            question: 'Pourquoi faire une campagne sur GoldAngels ?'
             answer: 'Primeiro porque somos extremamente comprometidos e apaixonados pelo que fazemos e queremos ver seu projeto financiado. Mas também porque somos a primeira e maior plataforma em atuação no Brasil. Estamos trabalhando de forma independente para desenvolver o cenário de financiamento de projetos no Brasil e possibilitar que mais pessoas viabilizem suas ideias, sonhos e visões.'
           2:
-            question: 'Dá muito trabalho ter uma campanha no Catarse?'
+            question: 'Est-ce accessible à tout le monde ?'
             answer: 'Cada projeto no Catarse tem sua própria particularidade e a quantidade de trabalho varia. Inscrever um projeto no Catarse é muito fácil, mas uma campanha tem seus desafios. O segredo é ter um bom planejamento de campanha! Podemos te ajudar! <a href="#start-form">Só começar o seu rascunho.</a>'
-          3:
-            question: 'Como o Catarse seleciona projetos?'
-            answer: 'Todo projeto precisa ter início meio e fim, ter entregas e objetivos claros e estar de acordo com os termos de uso e regras do Catarse. <a href="http://suporte.catarse.me/hc/pt-br">Acesse nossa Central de Suporte</a> para mais informações.'
-          4:
-            question: 'Quem pode usar o Catarse?'
-            answer: 'O Catarse fornece suporte aos usuários do site e torna possível que projetos captem recursos de forma ágil e direta utilizando a internet. Qualquer pessoa acima de 18 anos (ou menor, mas com um representante legal) pode utilizar nossos serviços e fazer uma campanha de crowdfunding.'
         col_2:
           1:
-            question: 'Preciso atingir a meta para receber meu dinheiro?'
+            question: "Comment atteindre l'objectif ?"
             answer: 'Atualmente utilizamos o modelo “tudo ou nada”, em que você só fica com o dinheiro caso atinja a meta de arrecadação no tempo de campanha estipulado por você. Caso o projeto não atinja a meta de arrecadação, iremos devolver integralmente o dinheiro para seus apoiadores, sem custo nenhum para você ou para quem te apoiou. O "tudo ou nada "é extremamente eficiente pois, além das campanhas arrecadarem mais, essa é uma das formas de assegurarmos que um projeto só acontecerá se ele puder ser entregue como foi descrito e prometido aos apoiadores.<br><br>No entanto, estamos construindo a modalidade flexível de financiamento coletivo para o Catarse, carinhosamente chamada de Catarse flex. Ela será diferente de todas as modalidades de campanhas flexíveis que existem no mercado. No modo Catarse flex você fica com todo o dinheiro que conseguir independente de bater a meta ou não. Essa modalidade ainda não está aberta ao público geral, mas você pode saiber mais em <a href="https://www.catarse.me/flex">www.catarse.me/flex</a>'
           2:
-            question: 'Quais são nossas taxas?'
+            question: 'Quels sont les droits ?'
             answer: 'Cobramos 13% sobre o valor total de projetos que atingiram ou ultrapassaram a meta de arrecadação de sua campanha de crowdfunding. Ficamos com cerca de 9% e 4% é repassado ao Pagar.me, meio de pagamento utilizado no Catarse. Projetos na modalidade "tudo ou nada" de financiamento coletivo, e que não atingiram a meta de arrecadação no tempo de campanha, não têm qualquer custo e todos os apoiadores recebem o dinheiro de volta.'
-          3:
-            question: 'De onde vem o dinheiro do meu projeto?'
-            answer: 'Família, amigos, fãs e membros de comunidades que você faz parte são seus maiores colaboradores. Você agita essa rede, conquista apoios e promove o projeto. Apoiadores divulgam e recomendam sua campanha para outras pessoas que conhecem, e assim o círculo de apoiadores vai crescendo e a campanha recebendo apoios. O segredo é construir um bom projeto, planejar bem sua campanha e saber direcionar seus esforços de divulgação para quem realmente pode se interessar no que você está propondo em sua campanha de crowdfunding.'
-          4:
-            question: 'Tenho mais dúvidas. Como faço?'
-            answer: '<a href="http://suporte.catarse.me/hc/pt-br">Acesse nossa Central de Suporte</a> ou entre em contato conosco através do email: contato@catarse.me'
+
       form:
-        title: 'Quero iniciar uma campanha chamada'
-        select_default: 'Selecione uma categoria'
-        submit: 'Comece seu rascunho'
+        title: 'Le nom de mon projet'
+        select_default: 'Selectionnez une catégorie'
+        submit: 'Démarrez votre projet'

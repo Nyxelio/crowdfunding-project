@@ -15,8 +15,8 @@ module Project::BaseValidator
     with_options if: -> (x) { ON_ANALYSIS_TO_END_STATES.include? x.state } do |wo| 
       wo.validates_presence_of :about_html, :headline, :goal
 
-      wo.validates_presence_of :uploaded_image,
-        unless: ->(project) { project.video_thumbnail.present? }
+      # wo.validates_presence_of :uploaded_image,
+      #   unless: ->(project) { project.video_thumbnail.present? }
 
       wo.validate do
         [:uploaded_image, :about_html, :name].each do |attr|
@@ -29,15 +29,15 @@ module Project::BaseValidator
       end
     end
 
-    with_options if: -> (x) { ON_ONLINE_TO_END_STATES.include? x.state } do |wo| 
-      wo.validates_presence_of :account, message: 'Dados Bancários não podem ficar em branco'		
-
-      wo.validate do
-        if self.account && (self.account.agency.try(:size) || 0) < 4
-          self.errors['account.agency_size'] << "Agência deve ter pelo menos 4 dígitos"
-        end
-      end
-    end
+    # with_options if: -> (x) { ON_ONLINE_TO_END_STATES.include? x.state } do |wo|
+    #   wo.validates_presence_of :account, message: 'Dados Bancários não podem ficar em branco'
+    #
+    #   wo.validate do
+    #     if self.account && (self.account.agency.try(:size) || 0) < 4
+    #       self.errors['account.agency_size'] << "Agência deve ter pelo menos 4 dígitos"
+    #     end
+    #   end
+    # end
 
   end
 end

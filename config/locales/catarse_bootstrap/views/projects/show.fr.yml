@@ -16,8 +16,10 @@ fr:
       ok: 'Ok! On va vous envoyer un rappel par email 48 heures avant la fin de la campagne'
       active_btn: 'Me rappeler de ce projet'
       deactive_btn: 'Je ne veux plus de rappel'
-    send_to_analysis: Votre projet a été envoyé à notre équipe.
-    send_to_analysis_error: Erreur lors de l’envoi de votre projet pour analyse. Remplir tous les champs obligatoires.
+    announce_expiration: 'Seu projeto foi para reta final.'
+    announce_expiration_error: 'Reta final ja foi definida!'
+    send_to_analysis: 'Votre projet a été envoyé à notre équipe.'
+    send_to_analysis_error: 'Erreur lors de l’envoi de votre projet pour analyse. Remplir tous les champs obligatoires.'
     push_to_online: Votre projet est en ligne!
     push_to_online_error: Erreur lors de la mise en ligne de votre projet. Remplir tous les champs obligatoires.
     twitter:
@@ -28,7 +30,7 @@ fr:
       project_post:
         exclusive: 'Article exclusif pour les donateurs.'
         unavailable: Cette nouveauté n’est disponible que pour les donateurs.
-        contribute: Soutiens 
+        contribute: Soutiens
         unavailable_contribute: Voir ce projet.
         destroy: Retirer la nouveauté
         destroy_confirmation: Voulez-vous retirer cette nouveauté?
@@ -63,6 +65,35 @@ fr:
         edit: Editer
         reports: Rapports
         posts: Nouveauté
+    project_sidebar:
+      contributors_call: 'soutenu par'
+      contributors_count:
+        one: '1 personne'
+        other: '{{count}} personnes'
+      remaining_time:
+        days:
+         one: ' jour restant'
+         other: ' jours restants'
+        hours:
+          one: ' heure restante'
+          other: ' heures restantes'
+        minutes:
+          one: ' minute restante'
+          other: ' minutes restantes'
+        seconds:
+          one: ' seconde restante'
+          other: ' secondes restantes'
+      submit: Soumettre le projet
+      display_status:
+        approved: "Ce projet est approuvé par GoldAngels. Il sera disponible en ligne prochainement."
+        online: "Vous pouvez soutenir ce projet jusqu'au %{date} à 23h59m59s"
+        failed: "Ce projet n'a pas atteint le minimum de %{goal} au %{date} et n'a pas été financé."
+        rejected: "Ce projet n'a pas été accepté."
+        in_analysis: "Ce projet est en cours de validation."
+        successful: "Ce projet a été un succès et financé au %{date}"
+        waiting_funds: "Le financement de ce projet a été fermé."
+        draft: "Ce projet n'a pas été soumis."
+      submit: Soutenir ce projet
     project_main:
       post_call: 'Toutes les nouveauté publié sur Catarse est envoyé directement par mail aux personnes qui ont déjà soutenu votre projet et reste aussi disponible sur le site. Vous pouvez décider de la laisser public, ou visible uniquement pour vos donateurs sur cet onglet.'
       send_post: 'Ecrire la nouveauté'
@@ -86,15 +117,6 @@ fr:
         subtitle_html: "Un projet de %{link}"
         without_city: "Un projet de"
         with_city: "Un projet de %{category_name} par %{author} à %{city}"
-      menu:
-        about: Sur
-        add_reward: Ajouter une recompense
-        comments: Commentaires
-        contributions: Dons
-        metrics: Métriques
-        edit: Editer
-        reports: Rapports
-        posts: Nouveautés
       no_rewards_warning: Ne voyager plus! Pensez à comment allez-vous les livrer et mettre tout
         cela dans le budget. Promis?!
       no_rewards_warning_title: Creez ici vos récompenses

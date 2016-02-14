@@ -2378,11 +2378,16 @@ a:hover {
 
 .hero-full.hero-2016 {
   padding-top: 136px;
-  background-image: url('/assets/hero-2015.png'), -webkit-linear-gradient(#392a75, #281c5d);
-  background-image: url('/assets/hero-2015.png'), linear-gradient(#392a75, #281c5d);
-  background-position: 50% 100%, 0px 0px;
-  background-size: 670px, auto;
-  background-repeat: no-repeat, repeat;
+  //background-image: url('/assets/hero-2015.png'), -webkit-linear-gradient(#392a75, #281c5d);
+  //background-image: url('/assets/hero-2015.png'), linear-gradient(#392a75, #281c5d);
+  //background-position: 50% 100%, 0px 0px;
+  //background-size: 670px, auto;
+  //background-repeat: no-repeat, repeat;
+  background-image: url('/assets/hero-jobs.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+  color: white;
 }
 
 .hero-guide {

@@ -19,7 +19,7 @@
             .w-col.w-col-6.w-sub-col
               = bform.input :owner_name, as: :string, validation_text: true, input_html: {required: true}
             .w-col.w-col-6.w-sub-col
-              = bform.input :owner_document, as: :tel, validation_text: true, input_html: { data: { :'validate-cpf-cnpj' => true }, required: true }
+              = bform.input :owner_document, as: :tel, validation_text: false, input_html: { data: { :'validate-cpf-cnpj' => false }, required: false }
           .w-row
             = render 'shared/bank_select', bform: bform
             .w-col.w-col-6.w-sub-col

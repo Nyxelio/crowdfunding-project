@@ -13,7 +13,7 @@ section#blog.section-large.bg-gray.before-footer
       .fontsize-large.u-marginbottom-60.text-success
         = link_to t('.blog'), CatarseSettings[:blog_url], target: '__blank', class: 'link-hidden-success'
     .w-row
-      - (Blog.fetch_last_posts rescue [])[0..2].each do |post|
+      /- (Blog.fetch_last_posts rescue [])[0..2].each do |post|
         .w-col.w-col-4.col-blog-post
           = link_to post.url, target: '__blank', class: 'link-hidden fontweight-semibold fontsize-base u-marginbottom-10' do
             /span.fontweight-semibold.fontsize-base.u-marginbottom-10
@@ -21,7 +21,17 @@ section#blog.section-large.bg-gray.before-footer
           .fontsize-smaller.fontcolor-secondary.u-margintop-10
             /= link_to post.url, target: '__blank', class: 'fontsize-smaller fontcolor-secondary ' do
             /span.fontsize-smaller.fontcolor-secondary
-          = truncate(post.summary, length: 130).html_safe    
+          = truncate(post.summary, length: 130).html_safe
+
+      - post = {title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', summary: 'Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum. Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo'}
+      - (0..2).each do |p|
+        .w-col.w-col-4.col-blog-post
+          = link_to '#', target: '__blank', class: 'link-hidden fontweight-semibold fontsize-base u-marginbottom-10' do
+            = truncate(post[:title], length: 80)
+          .fontsize-smaller.fontcolor-secondary.u-margintop-10
+           /= link_to post.url, target: '__blank', class: 'fontsize-smaller fontcolor-secondary ' do
+           /span.fontsize-smaller.fontcolor-secondary
+          = truncate(post[:summary], length: 130).html_safe
 
 
 = render 'shared/footer_big'
